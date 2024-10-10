@@ -5,13 +5,10 @@
 - [Overview](#overview)
 - [Built with](#built-with)
 - [Screenshot](#screenshot)
-- [Links](#links)
 - [Features](#features)
 - [Lighthouse Report](#Lighthouse-Report)
 - [Project Structure](#project-structure)
 - [API Integration](#api-integration)
-- [Installation](#installation)
-- [License](#license)
 - [Author](#author)
 
 ### Overview
@@ -31,10 +28,6 @@ This is a Weather Dashboard application designed to provide users with up-to-dat
 ### Screenshot
 
 ![Weather Application](Screenshot.png)
-
-### Links
-
-- Live Site URL : [Weather Application](https://weatheritoo.vercel.app/)
 
 ### Features
 
@@ -100,28 +93,6 @@ fetch(
   .then((data) => displayWeather(data))
   .catch((error) => console.error("Error:", error));
 ```
+   ## Author
 
-## Installation
-
-To set up and run the Weather Dashboard locally with an API key, follow these steps:
-
-```bash
-git clone https://github.com/AbdelrahmanAlsayed/Weather-Application
-cd your-project-directory
-echo "REACT_APP_OPENWEATHERMAP_API_KEY=your-api-key-here" > .env
-npm install && npm run dev
-
-
-Replace your-project-directory with the actual name of your project
-directory, and replace your-api-key-here with your OpenWeatherMap API key.
-
-```
-
-## License
-
-This project is open-source and free for non-commercial use. You are allowed to view, modify, and distribute the code for non-commercial purposes. For commercial use or any other inquiries, please contact me.
-No specific license file is provided. If you have questions about using this project, feel free to reach out to me at dev.abdelrahman7@gmail.com
-
-## Author
-
-- <a href="https://www.linkedin.com/in/abdelrahmmaan/" target="_blank">LinkedIn</a>
+- <a href="https://www.linkedin.com/in/ahmed-raafat-726972248/" target="_blank">LinkedIn</a>
